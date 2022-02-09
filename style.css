@@ -1,0 +1,39 @@
+.inner_counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_counter div{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 250px 10px;
+}
+.inner_counter div h1, h2{
+    color: white;
+}
+h2{
+    font-size: 30px;
+}
+.box1{
+    background-color: rgb(126, 12, 41);
+    text-align: center;
+    
+}
+.box2{
+    background-color: rgb(63, 90, 0);
+    text-align: center;
+}
+.box3{
+    background-color: rgb(11, 62, 104);
+    text-align: center;
+}
+/* media queary */
+@media (max-width: 576px) {
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
